@@ -137,7 +137,7 @@ MACROS:
     lef:
       - dir::../final_core/lef/ai_byte_top.lef
     vh:
-      - dir::../final_core/nl/ai_byte_top.nl.v
+      - dir::../final_core/nl/ai_byte_top.vh
     lib:
       nom_tt_025C_5v00:
         - dir::../final_core/lib/nom_tt_025C_5v00/ai_byte_top__nom_tt_025C_5v00.lib

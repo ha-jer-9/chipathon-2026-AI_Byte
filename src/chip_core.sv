@@ -108,11 +108,10 @@ module chip_core #(
 
     wire _unused = &{1'b0, input_in};
 
+    // Do not connect .VDD/.VSS here: hardened ai_byte_top.nl.v has no
+    // power ports (RTL also omits them). Chip PDN ties the macro via
+    // PDN_MACRO_CONNECTIONS in librelane/config.yaml.
     ai_byte_top u_ai_byte (
-`ifdef USE_POWER_PINS
-        .VDD        (VDD),
-        .VSS        (VSS),
-`endif
         .clk        (clk),
         .rst_n      (rst_n),
         .addr       (host_addr),

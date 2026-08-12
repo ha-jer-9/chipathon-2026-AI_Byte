@@ -1,4 +1,4 @@
-runs/
+librelane/runs/
 __pycache__/
 gf180mcu/
 gf180_drc.lyrdb

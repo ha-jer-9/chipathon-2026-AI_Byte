@@ -1,5 +1,4 @@
-runs/RUN_2026-08-11_*
-runs/RUN_2026-08-12_0*
+runs/
 __pycache__/
 gf180mcu/
 gf180_drc.lyrdb

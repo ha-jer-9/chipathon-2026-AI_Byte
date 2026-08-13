@@ -8,3 +8,31 @@ librelane/.core_size_override.yaml
 img/
 *.lyrdb
 .ipynb_checkpoints/
+
+
+# Large Magic layout output
+final_core_T=150ns/mag/
+
+# LibreLane intermediate/generated files
+final_core_T=150ns/odb/
+final_core_T=150ns/spef/
+final_core_T=150ns/sdf/
+
+
+
+# Large Magic layout output
+final_core_T=200ns/mag/
+
+# LibreLane intermediate/generated files
+final_core_T=200ns/odb/
+final_core_T=200ns/spef/
+final_core_T=200ns/sdf/
+
+
+# Large Magic layout output
+final_core_T=250ns/mag/
+
+# LibreLane intermediate/generated files
+final_core_T=250ns/odb/
+final_core_T=250ns/spef/
+final_core_T=250ns/sdf/

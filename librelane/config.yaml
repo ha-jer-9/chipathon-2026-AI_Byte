@@ -62,9 +62,9 @@ IGNORE_DISCONNECTED_MODULES:
 # Match hardened core (config_ai_byte_core.yaml). 25 MHz does not close on SS.
 CLOCK_PORT: clk_PAD
 CLOCK_NET: clk_pad/Y
-# Core needs ~107 ns on SS; 110 ns (~9.1 MHz) for pad-level margin.
-# Existing final_core (hardened @ 100 ns) is fine — no core re-run required.
-CLOCK_PERIOD: 135
+
+# Clock period: 140 ns (~7.14 MHz)
+CLOCK_PERIOD: 140
 
 PL_RESIZER_HOLD_SLACK_MARGIN: 0.35
 GRT_RESIZER_HOLD_SLACK_MARGIN: 0.3

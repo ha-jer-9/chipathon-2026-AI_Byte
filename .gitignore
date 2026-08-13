@@ -11,12 +11,12 @@ img/
 
 
 # Large Magic layout output
-final_core_T=150ns/mag/
+final_core*/mag/
 
 # LibreLane intermediate/generated files
-final_core_T=150ns/odb/
-final_core_T=150ns/spef/
-final_core_T=150ns/sdf/
+final_core*/odb/
+final_core*/spef/
+final_core*/sdf/
 
 
 
